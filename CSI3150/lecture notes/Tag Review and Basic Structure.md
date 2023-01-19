@@ -80,3 +80,6 @@ Article is basically any standalone container.
 
 Aside:
 * "If you're giving any info not directly correlated with the main content on the page.
+
+## HW?
+> Translate what we did so far into a DOM.
