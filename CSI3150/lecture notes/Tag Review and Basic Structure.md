@@ -50,6 +50,7 @@ Ok so we know we can break down a webpage into 3 parts:
 
 ## `<nav>`
 * Semantic
+* Your average navbar tag
 
 ## There are two types of HTML lists you can use
 1. Ordered lists, `<ol>`
