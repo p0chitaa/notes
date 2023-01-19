@@ -75,11 +75,11 @@ For example:
 1. `<article>`
 2. `<aside>`
 
-Article is basically any standalone container.
+`<article>` is basically any standalone container.
 * "If you do not require any further explaination and is kind of self contained...then you put it inside of `<article>`."
 
-Aside:
-* "If you're giving any info not directly correlated with the main content on the page.
+`<aside>`:
+* "If you're giving any info not directly correlated with the main content on the page."
 
 ## HW?
 > Translate what we did so far into a DOM.
