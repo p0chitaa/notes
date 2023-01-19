@@ -8,12 +8,40 @@
 </head>
 <body>
     <div id="app-container">
-        <header id="website-header"></header>
+        <!--header of the page contains navbar as an html list-->
+        <header id="website-header">
+            <nav id="navigation-menu">
+                <ul>
+                    <a href="./index.html"><li>Home</li></a>
+                    <a href="./pages/resume.html"><li>Vita</li></a>
+                    <a href="./pages/projects.html"><li>Projects</li></a>
+                    <a href="./pages/hobbies.html"><li>Hobbies</li></a>
+                    <a href="./pages/contactMe.html"><li>Contact Me</li></a>
+                </ul>
+            </nav>
+            <hr />
+        </header>
+        <!--main body of the page-->
         <main id="website-body">
             <h1>Portfolio Website</h1>
             <hr />
+            <!--include an image-->
+            <img 
+                src="./images/FILENAMEHERE"
+                alt="sample text lmfao"
+                title="NAME ON HOVER"
+            />
+            <p id="welcome-prompt">
+                <span>H</span>ello, welcome to my portfolio website. 
+                I am currently a fifth year student at 
+                Oakland University, Rochester MI.
+            </p>
         </main>
-        <footer id="website-footer"></footer>
+        <hr />
+        <!--footer contains copyright information-->
+        <footer id="website-footer">
+            <span id="footer-text">Copyright of x or y person &copy;2023</span>
+        </footer>
     </div>
 </body>
 </html>
