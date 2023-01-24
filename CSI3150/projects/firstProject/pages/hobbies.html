@@ -19,6 +19,39 @@
         </nav>
         <hr />
     </header>
+    <main id="hobbies-page-body">
+        <!--2 sections, one for audio and one for video-->
+        <section class="multimedia" id="audio-section"></section>
+            <audio src="./path/to/audio file" controls>
+                A sample of an audio file on this page.
+            </audio>
+        <section class="multimedia" id="video-section">
+            <!--supported extensions: .avi, .mov, .mp4, .webm-->
+            <video
+                src="./path/to/video"
+                width="35%"
+                controls
+                autoplay
+                loop
+            >
+                A sample of a video file.
+            </video>
+        </section>
+        
+        <!--share another webpage's video of your page (embedding. duh.)-->
+        <!--html tag : iframe-->
+        <section class="multimedia" id="iframe-tag">
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/watch?v=qXC4AyjRikg"
+                title="the kind of music ive recently been listening to"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+            ></iframe>
+        </section>
+    </main>
     <!--footer contains copyright information-->
     <footer id="website-footer">
         <span id="footer-text">Copyright of x or y person &copy;2023</span>

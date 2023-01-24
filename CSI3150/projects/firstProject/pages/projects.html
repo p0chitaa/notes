@@ -19,8 +19,59 @@
         </nav>
         <hr />
     </header>
+    <!--main content - html table: projects tables-->
+    <table id="projects-table" border="1">
+        <!--table header-->
+        <thead>
+            <tr>
+                <th>S. No</th>
+                <th>Title</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <!--first row of data-->
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>ABC Research</td>
+                <td>01-Jan-2023</td>
+                <td>30-May-2023</td>
+                <td>ah sweet, horrors beyond my comprehension</td>
+            </tr>
+            <!--and so on. (second row of data)-->
+            <tr>
+                <td>2</td>
+                <td>Arasaka</td>
+                <td>09-Apr-2077</td>
+                <td>30-Dec-2077</td>
+                <td>wow look at that. a pop culture reference in a CS student's notes. never would've guessed.</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr />
+    <!--demo for rowspan attribute w html tables-->
+    <table border="6">
+        <caption>
+            Table: illustrate rowspan for html tables
+        </caption>
+        <tr>
+            <th>Child name</th>
+            <th>Parent Name</th>
+        </tr>
+        <tr rowspan="2">
+            <td>Example 1</td>
+            <td>Example 2</td>
+        </tr>
+        <tr>
+            <td>Example 3</td>
+            <td>Example 4</td>
+        </tr>
+    </table>
     <!--footer contains copyright information-->
     <footer id="website-footer">
+        <br>
         <span id="footer-text">Copyright of x or y person &copy;2023</span>
     </footer>
 </body>
