@@ -4,4 +4,4 @@
 ## For _Lost In Translation_
 * Was there a certain scene where the editing really stood out to you?
 
-#### Don't forget to to project 2.
+#### Don't forget to do project 2.
