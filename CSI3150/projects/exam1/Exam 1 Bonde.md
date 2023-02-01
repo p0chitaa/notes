@@ -139,9 +139,11 @@ Some inline display elements:[^7]
 
 ## Q7 : What are meta tags used for? Briefly describe at least 3 of them? **(5 points)**
 * Meta tags are used for defining information about your page or information about the content on your page.
-1. `<meta name="title">` 
+1. `<meta name="title">` [^8]
     * Defines the title of a page, shows in page tab at the top of the web browser or on a search engine
-2. `<meta name="description">`
+2. `<meta name="description">` [^8]
     * Defines a description of a page, displayed below the title in a search engine.
-3. `<meta name="author">`
+3. `<meta name="author">` [^8]
     * Defines the author of a page
+
+[^8]: HTML `<meta>` Tag, https://www.w3schools.com/tags/tag_meta.asp
