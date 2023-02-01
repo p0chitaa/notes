@@ -147,3 +147,77 @@ Some inline display elements:[^7]
     * Defines the author of a page
 
 [^8]: HTML `<meta>` Tag, https://www.w3schools.com/tags/tag_meta.asp
+
+## Q8: [OPTIONAL; FOR EXTRA CREDIT ONLY; 10 points.]
+PROBLEM:
+
+The problem, which I want you all to solve, is, given a “big picture” image like the first ikea picture above, I want you to develop only using HTML5 a webpage wherein if a user, for example, clicks on the couch area of the image, the page will (redirect to) say that “This is a couch”. If they click on, say for
+example, the table, the page will say that this is a table. You don’t need to specifically use this ikea image. I included this only to illustrate the problem and motivate the practicality of the web system design. For your solution, you may use a much simpler image. However, the idea is it should have at least 3 distinct products, and if a user clicks on a product, the page should mention what product is it (or you can give a href redirect to a page that describes the product if available).
+
+WHAT IS EXPECTED IN YOUR SOLUTION:
+* Your problem-solving approach: document step-by-step as bulleted-list, as you read this problem and understand it, what is your strategy (where to start? How will you apply what you know? Where will you look for information that will aid you to solve this? What does the blueprint of your solution look like, etc.) to solve this problem. [3 points]
+* Your HTML code [screenshot of code editor] and the image that you used included in your final PDF answer document. [7 points]
+
+---
+Okay! So this is probably "cheating", but I worked as a web developer in the past for a little over a year, and we used image maps all the time!
+
+Here was my thinking process:
+* I saw that we needed to make certain parts of an image clickable, so I immediately decided to use `<map>`s
+* I needed to find an image of a living room that isn't very busy
+* I needed simple pages for each clickable item in the image
+* And finally, a back button in each of those simple pages for convenience.
+> all this being said, if I needed to look for information to solve this, I would go straight to w3schools.com bc that website carried me through all my classes and my jobs lol
+
+### Code for the Main Page:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="./images/living-room.jpg" alt="Living Room" usemap="#roommap">
+    <map name="roommap">
+        <area shape="rect" coords="675, 289, 1125, 636" href="couch.html">
+        <area shape="rect" coords="674, 479, 78, 286" href="couch.html">
+        <area shape="rect" coords="78, 480, 134, 549" href="couch.html">
+        <area shape="circle" coords="360, 529, 55" href="table.html">
+        <area shape="circle" coords="260, 529, 55" href="table.html">
+        <area shape="circle" coords="460, 529, 55" href="table.html">
+        <area shape="rect" coords="570, 0, 997, 279" href="shelf.html">
+    </map>
+</body>
+</html>
+```
+
+### The Rest of The Pages:
+`couch.html`, `table.html`, and `shelf.html` all follow this format.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is a(n) item!</p>
+    <hr />
+    <a href="extra-credit.html">Back</a>
+</body>
+</html>
+```
+
+### The Picture I Used
+![Picture of living room](./images/living-room.jpg)
+
+<br />
+<br />
+<hr />
+
+#### Citations
