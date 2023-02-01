@@ -165,7 +165,8 @@ Here was my thinking process:
 * I saw that we needed to make certain parts of an image clickable, so I immediately decided to use `<map>`s
 * I needed to find an image of a living room that isn't very busy
 * I needed simple pages for each clickable item in the image
-* And finally, a back button in each of those simple pages for convenience.
+* I needed back button in each of those simple pages for convenience.
+* Finally, I probably needed multiple areas for the couch, as its not a perfect rectangle.
 > all this being said, if I needed to look for information to solve this, I would go straight to w3schools.com bc that website carried me through all my classes and my jobs lol
 
 ### Code for the Main Page:
