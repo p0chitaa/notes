@@ -29,6 +29,7 @@ For example:
 </body>
 ```
 ![Image showing div-wrapper header](./images/div-wrapper-header.png)
+
 (yes, there is a typo but I am NOT cropping another image rn lol)
 
 2. Instead of implementing the above, why not just use the `<header>` tag?
