@@ -1,12 +1,17 @@
 # Exam 1
 Drew Bonde
 
+<br>
+
 ---
 ## Q1 : Discuss in detail the concept of DOM for an HTML page. **(5 points)**
 The HTML DOM, or document object model, is a tree of objects that acts as a programming interface for HTML. It defines all HTML elements, their respective properties and events, and every method to access each element. [^1]
 > I.e. this is how one modifies HTML elements.
 
 [^1]: JavaScript HTML DOM, https://www.w3schools.com/js/js_htmldom.asp
+
+<br>
+<br>
 
 ## Q2 : Comment on the following statement, "Learning HTML is more about learning the semantic than the syntax." Explain your answer withthe help of an example use-case scenario. **(5 points)**
 * Personally, I feel like this isn't as deep as it initially comes off to be. Semantic tags are simply tags that describe their contents for the sole purpose(s) of readability and convenience. So by learning the semantic, you learn how to structure your page in a cleaner, more efficient, and sometimes reusable manner.
@@ -32,6 +37,9 @@ For example:
 
 (yes, there is a typo but I am NOT cropping another image rn lol)
 
+<br>
+<br>
+
 2. Instead of implementing the above, why not just use the `<header>` tag?
 ```html
 <body>
@@ -54,6 +62,9 @@ For example:
 > Obviously, these code blocks produce identical output. However, the code block presenting the implementation of the `<header>` tag is much easier on the eyes.
 * Other semantic tags have similar use cases.
 
+<br>
+<br>
+
 ## Q3 : What is the correct usage of the following HTML5 semantic elements: `<article>`, `<footer>`, `<header>`, `<section>`, and `<main>`? **(5 points)**
 I'll just be listing these off in bullet points.
 * `<article>`
@@ -72,6 +83,8 @@ I'll just be listing these off in bullet points.
 
 [^2]: Professor Sen (during lecture)
 [^3]: Professor Sen again (during lecture)
+<br>
+<br>
 
 ## Q4 : Write the HTML5 code snipped to embed an audio file and a video file in your webpage. What are the acceptable audio formats for embedding on a webpage? **(5 points)**
 ```html
@@ -109,11 +122,16 @@ Supported video extensions:
 [^5]: (There were a ton of options, but here is w3schools for example) HTML `<video>` Tag, https://www.w3schools.com/tags/tag_video.asp
 
 > Also, I ripped this code snippet from what we did in class, let me know if that will be an issue in the future.
+<br>
+<br>
 
 ## Q5: What is the difference between `<figure>` and `<img>` tags? **(3 points)**
 * The `<img>` tag is for embedding an actual image into a page, whereas the `<figure>` tag "semantically organizes"[^6] the image contained within onto the page. 
 
 [^6]: HTML5 - When to use `<figure>`, https://www.learningjournal.guru/article/html5/html5-when-to-use-figure-tag/
+
+<br>
+<br>
 
 ## Q6: What is the difference between Block display elements and inline display elements? Give examples of each. **(2 points)**
 * When block tags are rendered, the browser puts a newline character at the end of it.
@@ -137,6 +155,9 @@ Some inline display elements:[^7]
 
 [^7]: HTML Block and Inline Elements, https://www.w3schools.com/html/html_blocks.asp
 
+<br>
+<br>
+
 ## Q7 : What are meta tags used for? Briefly describe at least 3 of them? **(5 points)**
 * Meta tags are used for defining information about your page or information about the content on your page.
 1. `<meta name="title">` [^8]
@@ -147,6 +168,9 @@ Some inline display elements:[^7]
     * Defines the author of a page
 
 [^8]: HTML `<meta>` Tag, https://www.w3schools.com/tags/tag_meta.asp
+
+<br>
+<br>
 
 ## Q8: [OPTIONAL; FOR EXTRA CREDIT ONLY; 10 points.]
 PROBLEM:
