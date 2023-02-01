@@ -108,7 +108,7 @@ Supported video extensions:
 
 [^5]: (There were a ton of options, but here is w3schools for example) HTML `<video>` Tag, https://www.w3schools.com/tags/tag_video.asp
 
-> I also ripped this code snippet from what we did in class, let me know if that will be an issue in the future.
+> Also, I ripped this code snippet from what we did in class, let me know if that will be an issue in the future.
 
 ## Q5: What is the difference between `<figure>` and `<img>` tags? **(3 points)**
 * The `<img>` tag is for embedding an actual image into a page, whereas the `<figure>` tag "semantically organizes"[^6] the image contained within onto the page. 
