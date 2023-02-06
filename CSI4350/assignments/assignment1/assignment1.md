@@ -46,3 +46,37 @@ $S = {(n, F(n), F(n+1))\ |\ n\ \epsilon\ ℕ}$
 > The set defined by the above rules contains 3-tuples starting at (0, 1, 0) with the following rules: if (n, i, j) belongs to S, then so does (n+1, i+2, i+j). Given that (0, 1, 0) ε S, then so does (1, 3, 1), (2, 5, 4), (3, 7, 9), (4, 9, 16), (5, 11, 25), and so on.
 
 $S = {(n, 2n+1, n^2)\ |\ n\ \epsilon\ ℕ}$
+
+## 2. ***[10 points]*** In the definition of `remove-first` below, if that last line were replaced by `(remove-first s (cdr los))`, what function would the resulting procedure compute? Give the contract, including the usage statement, for the revised procedure.
+```scheme
+remove-first : Sym x Listof(Sym) --> Listof(Sym)
+
+#lang racket
+(define remove-first
+  (lambda (s los)
+    (if (null? los)
+        `()
+        (if (eqv? (car los) s)
+            (cdr los)
+            (cons (car los) (remove-first s (cdr los)))))))
+```
+
+> Upon editing the last line to `(remove-first s (cdr los))`, the function returns the rest of the list following the passed symbol, `s`.
+
+
+Revised procedure:
+```scheme
+get-following : Sym x Listof(Sym) --> Listof(Sym)
+
+#lang racket
+(define get-following
+  (lambda (s los)
+    (if (null? los)
+        `()
+        (if (eqv? (car los) s)
+            (cdr los)
+            (remove-first s (cdr los))))))
+```
+
+## 3. ***[20 points]*** Define a procedure/function `remove` in Scheme, which is like `remove-first`, except that it removes _all_ occurrences of a given symbol from a list of symbols, not just the first.
+
