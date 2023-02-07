@@ -63,6 +63,7 @@ remove-first : Sym x Listof(Sym) --> Listof(Sym)
             (cons (car los) (remove-first s (cdr los)))))))
 ```
 
+---
 > Upon editing the last line to `(remove-first s (cdr los))`, the function returns the rest of the list following the passed symbol, `s`.
 
 
@@ -134,6 +135,7 @@ outputs
 
 You can use Dr. Racket, as discussed in the class to write, debug and execute your code.
 
+---
 The code:
 ```scheme
 #lang scheme
@@ -157,6 +159,7 @@ outputs
 `((1 a) (1 a) (b 1) (b 2))
 ```
 
+---
 Ok, so for this one I decided to write two functions:
 1. `inner-invert` to handle reversing the contents of each nested list
 2. `invert` to handle running `inner-invert` on each nested list in the parent list
@@ -190,6 +193,7 @@ outputs
 `(2 2 3 5 8)
 ```
 
+---
 So I'm sure there is a much much better way of doing this, but mine completely revolves around finding the smallest element.
 * I started doing it this way and I was in **way** too deep to start over so I stuck with it.
 
