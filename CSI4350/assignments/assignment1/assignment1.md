@@ -90,7 +90,6 @@ For the life of me I wanted to figure out how to do this without using `else` bu
 The code:
 ```scheme
 #lang scheme
-#lang scheme
 (define remove
   (lambda (s los)
     (cond
