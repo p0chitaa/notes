@@ -21,3 +21,8 @@ Not within the narrative world of the film.
 > ***If the answer is no, then this is non-diegetic soundtrack.***
 
 Sometimes things can start off as diegetic and shift to non-diegetic and vice-versa.
+
+## During _Alice Doesn't Live Here Anymore_
+1. How is soundtrack or score music being used creatively?
+2. Can you find expressive uses of diegetic or non-diegetic sound?'
+
