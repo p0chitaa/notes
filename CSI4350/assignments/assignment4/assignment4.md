@@ -46,3 +46,17 @@ Semantic additions:
 (apply-procedure (procedure var1 var2 body p) val1 val2)
 = (value-of body [var1=val1][var2=val2]p)
 ```
+
+## 4. ***[15 points]*** What is the value of the following PROC program?
+```
+let makemult = proc (maker)
+                proc (x)
+                  if zero?(x)
+                    then 0
+                      else -(((maker maker) -(x,1)), -4)
+  in let times4 = proc (x) ((makemult makemult) x)
+    in (times4 3)
+```
+*Explain, in plain English, how did you get this value.*
+
+> This program evaluates to 12. Each time x is decremented, `makemult` increments by 4. So in this case, `x` is 3. The first iteration it increments and equals 4 and `x` gets decremented to 2. The second iteration, `makemult` is now 8, and `x` is down to 1. The third iteration, `makemult` is now 12 and `x` is 0.
